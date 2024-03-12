@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+}
+#numberdisplay{
+    font-size: 50px;
+    color: orange;
+}
+#button1{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 5rem;
+}
+#button1 :hover{
+    background-color: red;
+}
+#button2{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 5rem;
+}
+#button3{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 5rem;
+}
